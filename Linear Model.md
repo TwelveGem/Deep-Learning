@@ -1,0 +1,13 @@
+![[DL_linear.pdf]]
+- Difference Quotient should be using $\Delta$, not $\partial$ 
+- Make sure to use $\nabla$ when referring to gradient
+- Study Product rule
+- Given that $\vec x$ is a matrix of $n\times1$ and $\vec y$ is similarly shaped
+	- $x^Ty=y^Tx=x\cdot y$ 
+	- But, $xy^T$ is a square $n\times n$ matrix
+- If $f(x)=x^TAx$ where $A$ is $n\times n$ and $\vec x$ is $n\times1$,
+	- The gradient can be computed with $A^Tx+Ax$
+	- If $A^T=A$, then $\nabla_{\vec{x}} f=2x^TA$
+- $||\vec{x}||=\sqrt{\vec{x}^T\vec{x}}$ 
+	- If the equation $\nabla_x(||Ax-y||^2)$ is to be solved, then we can use the previous idea to get through
+		- $$\nabla_x((Ax-y)^T(Ax-y))$$
