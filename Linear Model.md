@@ -10,4 +10,6 @@
 	- If $A^T=A$, then $\nabla_{\vec{x}} f=2x^TA$
 - $||\vec{x}||=\sqrt{\vec{x}^T\vec{x}}$ 
 	- If the equation $\nabla_x(||Ax-y||^2)$ is to be solved, then we can use the previous idea to get through
-		- $$\nabla_x((Ax-y)^T(Ax-y))$$
+		- $\nabla_x((Ax-y)^T(Ax-y))$
+- ${\text{min}_\theta}\ J(\theta) = (X\theta - y)^T(X\theta-y)$
+- [[Python Model]]

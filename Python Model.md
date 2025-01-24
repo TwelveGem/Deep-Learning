@@ -1,0 +1,4 @@
+- A machine learning model can be made in python with a class
+	- This class stores the parameters and biases
+	- This class has functions that can be called on an object
+	- 
